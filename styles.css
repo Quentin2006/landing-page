@@ -11,19 +11,14 @@ a {
 
 /* HEADER */
 
-.header,
-.footer {
+.header {
+    background-color: #1f2937;
+    color: #F9FAF8;
+
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #1f2937;
-    color: #F9FAF8;
     padding: 1em;
-
-}
-
-.header-logo {
-    font-size: 24px;
 }
 
 .link-container {
@@ -31,38 +26,61 @@ a {
     gap: 1em;
 }
 
-.header-link {
+.header-logo {
+    font-size: 24px;
+}
+
+.secondary-text {
     color: #E5E7EB;
     font-size: 18px;
 }
+
 
 /* FIRST BODY */
 
 .body-one {
-    display: flex;
     background-color: #1f2937;
-    color: #F9FAF8;
-}
-.img {
+
+    padding: 5em;
+    gap: 1em;
+
     display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+
 }
+
 .text-container {
     display: flex;
     flex-direction: column;
-    
     border: solid red;
+    gap: 1em;
+    
 }
 
-.text-container .title {
+.hero-text {
     font-size: 48px;
     font-weight: bolder;
+    color: #F9FAF8;
 }
 
-.text-container .info {
-    color: #E5E7EB;
-    font-size: 18px;
+.sign-up {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 7px;
+    
+    width: 100px;
+    height: auto;
 }
 
-.text-container .sign-up {
-    background-color: #3882f6;
+img {
+    display: flex;
+    width: 300px;
+    height: auto;
 }
