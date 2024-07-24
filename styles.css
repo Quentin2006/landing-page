@@ -1,8 +1,6 @@
 body {
     /* FONT */
     font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-style: normal;
     padding: 0;
     margin: 0;
 }
@@ -13,27 +11,28 @@ a {
 
 /* HEADER */
 
-.header {
+.header,
+.footer {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-
-
-
     background-color: #1f2937;
+    color: #F9FAF8;
+    padding: 1em;
 
 }
 
 .header-logo {
     font-size: 24px;
-    color: #F9FAF8;
+
+}
+
+.link-container {
+    display: flex;
+    gap: 1em;
 }
 
 .header-link {
-    display: flex;
-
-    border: solid red;
-
+    color: #E5E7EB;
     font-size: 18px;
-    color: #E5E8EB;
 }
