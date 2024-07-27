@@ -19,7 +19,6 @@ a {
     justify-content: space-around;
     align-items: center;
     padding: 1em;
-
 }
 
 .link-container {
@@ -180,4 +179,16 @@ img {
 }
 
 /* Footer */
+
+.footer {
+    background-color: #1f2937;
+    color: #E5E7EB;
+
+    font-size: 12px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2em;
+}
 
